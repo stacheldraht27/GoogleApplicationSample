@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Google Plus API"/>
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Sign In to Google +"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/log_out_button"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:text="Share on Google Plus"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/get_data_button"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:text="Get User Data"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
